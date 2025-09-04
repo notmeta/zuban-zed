@@ -1,0 +1,11 @@
+id = "zuban"
+name = "zuban"
+description = "Python type checking and language server support from Zuban."
+version = "0.1.0"
+schema_version = 1
+authors = ["Corey <corey@notmeta.io>"]
+repository = "https://github.com/notmeta/zuban-zed"
+
+[language_servers.zuban]
+name = "Zuban"
+languages = ["Python"]

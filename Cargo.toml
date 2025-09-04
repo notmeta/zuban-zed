@@ -1,0 +1,11 @@
+[package]
+name = "zuban-zed"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+path = "src/zuban.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+zed_extension_api = "^0.2.0"
